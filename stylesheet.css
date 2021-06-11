@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Amiko", sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+}
+.listCollections {
+  color: #7c7c84;
+}
+.lbReminder {
+  font-family: "Antic Slab", serif;
+  letter-spacing: 3px;
+  color: #7c7c84;
+  width: 19rem;
+}
+
+.lbTask {
+  font-family: "Amiko", sans-serif;
+  letter-spacing: 3px;
+  color: #7c7c84;
+}
+
+.task {
+  border: none;
+  font-family: "Amiko", sans-serif;
+  border-bottom-style: solid;
+  border-bottom-color: #acacb4;
+  width: 18rem;
+}
+
+.task:focus {
+  outline: none;
+}
+
+.filter {
+  border: none;
+  font-family: "Amiko", sans-serif;
+  border-bottom-style: solid;
+  border-bottom-color: #acacb4;
+  width: 18rem;
+  margin-top: 6rem;
+}
+
+.filter:focus {
+  outline: none;
+}
+
+.clrAll:hover {
+  background-color: #585771;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #ccffcc;
+  color: #333366;
+}
+
+i:hover {
+  color: #f0ca9a;
+}
+::placeholder {
+  color: #9898a1;
+}
+.label {
+  padding-bottom: 2rem;
+}
+.clrAll {
+  background-color: #ccffcc;
+  color: #333366;
+  padding: 8px;
+  border: none;
+  font-family: "Amiko", sans-serif;
+  border-radius: 25px;
+  width: 5rem;
+  outline: none;
+}
+.btn {
+  padding-top: 10px;
+}
+li {
+  padding-top: 2rem;
+  list-style-type: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  background-color: #333366;
+  color: white;
+  border: none;
+  width: 5rem;
+  padding: 8px;
+  font-family: "Amiko", sans-serif;
+  border-radius: 25px;
+  outline: none;
+}
+.icon {
+  position: relative;
+  color: #acacb4;
+  left: 16.5rem;
+  top: 7.2rem;
+}

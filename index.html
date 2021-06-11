@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d1663b981.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form"> 
+           <div class="label">
+             <h2 class="lbTask">Task</h2>
+             <h2 class="lbReminder">Reminder</h2>
+           </div> 
+            <input type="text" class="task" placeholder="Enter Task" id="task">
+                <div class="btn">
+                 <button type="submit" class="submit">Submit</button>
+                 <button class="clrAll" id="clrAll">Clear All</button>
+                </div>
+                  <div class="icon">
+                     <i id="search" class="fas fa-search"></i>
+                  </div>
+                <input type="text" class="filter" placeholder="Search" id="filter">
+                <div class="collection">
+                 <ul id="ulList"></ul>   
+               
+                </div>
+        </div>
+    </div> 
+    <script src="app.js"></script>
+</body>
+</html>
